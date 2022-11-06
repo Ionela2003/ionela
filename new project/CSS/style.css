@@ -1,0 +1,331 @@
+body{
+    font-family: 'Nunito';
+}
+
+nav{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 29px;
+    margin-bottom: 100px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:29px;
+    margin-left: 114px;
+    width: 100%;
+    height: 40px;
+
+}
+
+nav ul li  {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(34, 34, 34, 0.75);
+}
+
+nav ul li.active a{
+    color: #DAA520;
+}
+
+nav ul li.button a{
+    text-transform: uppercase;
+    border: 1px solid rgba(62, 63, 67, 1);
+    border-radius: 8px;
+    padding: 9px 36px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+#logo img{
+    width: 30px;
+}
+
+#logo figcaption{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.25em;
+    color: #3E3F43;
+    margin-left: 5px;
+}
+#table{
+    position: relativ;
+    width: 568px;
+    height: 577px;
+    left: 80px;
+}
+
+header{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+header div span{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+}
+
+header div h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    color: #313235;
+}
+
+header div button{
+    background: #DAA520;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 14px 24px;
+}
+#reclantage{
+    position: absolute;
+    width: 370px;
+    height: 800px;
+    right: 0;
+    top: 0px;
+    background: #F9BDBD;
+    z-index: -2;
+    border-bottom-left-radius: 100px;
+}
+#flower{
+    position: absolute;
+    width: 382px;
+    right: 248px;
+    top: 400px;
+    z-index: -1;
+
+section header{
+        width: 952px;
+        height: 98px;
+        left: 100px;
+        top: 0px;
+        bottom: 40px;
+        align-items: center;
+}
+section header div{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+}
+section header p{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: right;
+    text-transform: uppercase;
+    color: rgba(34, 34, 34, 0.1);
+}
+section header img{
+    width: 30px;
+    margin-right: 8px;
+}
+
+hr{
+    width: 708px;
+    height: 0px;
+    left: 108px;
+    top: 4478px;
+    border: 1px solid #C4C4C4;
+}
+section header hr{
+    border: 1px solid #000000;
+}
+
+section div article{
+    display: flex;
+    width: 1152px;
+    margin: 0 auto;
+    top: 0px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+}
+p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+#fl2{
+    position: absolute;
+    width: 382px;
+    height: 382px;
+    left: -68px;
+    top: 1352px;
+    z-index: -2;
+}
+
+#rectg2{
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    left: 100px;
+    top: 1038px;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background: #F7DEA6;
+}
+
+
+#rounded-img-bl{
+    position: absolute;
+    width: 370px;
+    height: 800px;
+    right: 0;
+    top: 0px;
+    background: #F9BDBD;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+}
+#bowls{
+    width: 388px;
+    height: 306px;
+    left: 138px;
+    top: 220px;
+}
+
+section div button{
+    position: absolute;
+    width: 212px;
+    height: 50px;
+    left: 470px;
+    top: 2393px;
+    font-style: normal;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #DAA520;
+    border-radius: 4px;
+    border: none;
+}
+#first{
+    width: 316;
+    height: 0px;
+}
+#second{
+    width: 65px;
+    height: 0px;
+    /* left: 408px; */
+    /* top: 2039px; */
+}
+
+#third{
+    width: 212px;
+    width:202px
+    height: 0px;
+    left: 396px;
+    top: 2612px;
+}
+
+#fourth{
+    width: 240px;
+    height: 0px;
+    /* left: 396px; */
+    /* top: 3709px; */
+}
+
+#desk{
+    width: 280px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    background: #F9BDBD;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#chair{
+    width: 280px;
+    height: 400px;
+    left: 336px;
+    top: 0px;
+    background: #F7DEA6;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#kitchenware{
+    width: 280px;
+    height: 400px;
+    left: 672px;
+    top: 0px;
+    background: #A8DCEC;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#bookshelf{
+    width: 280px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    background: #F9BDBD;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#electronics{
+    width: 280px;
+    height: 400px;
+    left: 336px;
+    top: 0px;
+    background: #F7DEA6;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#first{
+    width: 316px;
+    height: 0px;
+    /* left: 357px; */
+    /* top: 49px; */
+}
+headline-img{
+position: absolute;
+width: 568px;
+height: 577px;
+left: 584px;
+top: 200px;
+}
+
