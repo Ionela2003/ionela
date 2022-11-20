@@ -1,8 +1,25 @@
-body{
-    font-family: 'Nunito';
+body {
+    font-family: 'Nunito', sans-serif;
 }
 
-nav{
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#bg-pink {
+    background: #F9BDBD;
+    width: 370px;
+    height: 800px;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 0;
+    border-radius: 0 0 0 150px;
+
+}
+
+nav {
     display: flex;
     width: 1000px;
     margin: 0 auto;
@@ -10,19 +27,19 @@ nav{
     margin-bottom: 100px;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top:29px;
-    margin-left: 114px;
+    margin-top: 29px;
+    margin-left: 0px;
     width: 100%;
     height: 40px;
 
 }
 
-nav ul li  {
+nav ul li {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -30,26 +47,34 @@ nav ul li  {
     color: rgba(34, 34, 34, 0.75);
 }
 
-nav ul li.active a{
+nav ul li.active a {
     color: #DAA520;
 }
 
-nav ul li.button a{
+nav ul li.button a {
     text-transform: uppercase;
     border: 1px solid rgba(62, 63, 67, 1);
     border-radius: 8px;
     padding: 9px 36px;
 }
 
-#logo{
+#bgflower {
+    position: absolute;
+    right: 300px;
+    top: 410px;
+    z-index: -1;
+}
+
+#logo {
     display: flex;
     align-items: center;
 }
-#logo img{
+
+#logo img {
     width: 30px;
 }
 
-#logo figcaption{
+figcaption {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -58,78 +83,88 @@ nav ul li.button a{
     color: #3E3F43;
     margin-left: 5px;
 }
-#table{
-    position: relativ;
+
+#table {
+    position: relative;
     width: 568px;
     height: 577px;
     left: 80px;
 }
 
-header{
-    width: 1000px;
+header {
+    width: 1100px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:120px;
 }
 
-header div span{
+header div span {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 49px;
     color: #3E3F43;
+    margin-bottom: 16px;
 }
 
-header div h1{
+header div h1 {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
     font-size: 72px;
     line-height: 98px;
     color: #313235;
+    margin-bottom: 16px
 }
 
-header div button{
+header div button {
     background: #DAA520;
     border-radius: 4px;
     border: none;
     color: white;
     padding: 14px 24px;
 }
-#reclantage{
+
+#reclantage {
     position: absolute;
     width: 370px;
     height: 800px;
     right: 0;
-    top: 0px;
+    top: 0;
     background: #F9BDBD;
     z-index: -2;
     border-bottom-left-radius: 100px;
 }
-#flower{
+
+#flower {
     position: absolute;
     width: 382px;
     right: 248px;
     top: 400px;
     z-index: -1;
-
-section header{
-        width: 952px;
-        height: 98px;
-        left: 100px;
-        top: 0px;
-        bottom: 40px;
-        align-items: center;
 }
-section header div{
+
+section header {
+    width: 952px;
+    height: 98px;
+    left: 100px;
+    top: 0px;
+    bottom: 40px;
+    align-items: center;
+}
+
+section header div {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 49px;
     color: #3E3F43;
 }
-section header p{
+
+section header p {
     font-style: normal;
     font-weight: 800;
     font-size: 72px;
@@ -138,23 +173,25 @@ section header p{
     text-transform: uppercase;
     color: rgba(34, 34, 34, 0.1);
 }
-section header img{
+
+section header img {
     width: 30px;
     margin-right: 8px;
 }
 
-hr{
+hr {
     width: 708px;
     height: 0px;
     left: 108px;
     top: 4478px;
     border: 1px solid #C4C4C4;
 }
-section header hr{
+
+section header hr {
     border: 1px solid #000000;
 }
 
-section div article{
+section div article {
     display: flex;
     width: 1152px;
     margin: 0 auto;
@@ -163,33 +200,40 @@ section div article{
     margin-bottom: 100px;
 }
 
-span{
+span {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 448px;
     font-size: 36px;
     line-height: 49px;
     color: #3E3F43;
+    left: 604px;
+    top: 242px;
+    height: 98px;
+
 }
-p{
+
+p {
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 33px;
     color: #000000;
+    
 }
 
-#fl2{
+#fl2 {
     position: absolute;
     width: 382px;
     height: 382px;
     left: -68px;
     top: 1352px;
     z-index: -2;
+    
 }
 
-#rectg2{
+#rectg2 {
     position: absolute;
-    width: 280px;
+    width: 300px;
     height: 400px;
     left: 100px;
     top: 1038px;
@@ -198,134 +242,421 @@ p{
     border-top-right-radius: 100px;
     background: #F7DEA6;
 }
+#bowls {
+    position: absolute;   
+    width: 361px;
+    height: 319px;
+    left: 149px;
+    top: 1111px;
 
-
-#rounded-img-bl{
-    position: absolute;
-    width: 370px;
-    height: 800px;
-    right: 0;
-    top: 0px;
-    background: #F9BDBD;
-    z-index: -1;
-    border-bottom-left-radius: 100px;
+    
 }
-#bowls{
-    width: 388px;
-    height: 306px;
-    left: 138px;
-    top: 220px;
+.customs{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+    align-items: end;
 }
-
-section div button{
-    position: absolute;
+.btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.but{
     width: 212px;
     height: 50px;
-    left: 470px;
-    top: 2393px;
-    font-style: normal;
+    background: #DAA520;
+    border-radius: 4px;
+    border: none;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
     text-align: center;
     color: #FFFFFF;
-    background: #DAA520;
-    border-radius: 4px;
-    border: none;
 }
-#first{
-    width: 316;
-    height: 0px;
+.group div{ 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
 }
-#second{
-    width: 65px;
-    height: 0px;
-    /* left: 408px; */
-    /* top: 2039px; */
+.group img{
+    padding-bottom: 35px;
 }
 
-#third{
-    width: 212px;
-    width:202px
-    height: 0px;
-    left: 396px;
-    top: 2612px;
+.numbers{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
-#fourth{
-    width: 240px;
-    height: 0px;
-    /* left: 396px; */
-    /* top: 3709px; */
-}
-
-#desk{
-    width: 280px;
-    height: 400px;
-    left: 0px;
-    top: 0px;
-    background: #F9BDBD;
+.number{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 131px;
+    text-align: center;
+    color: rgba(249, 189, 189, 0.25);
     z-index: -1;
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 100px;
+}
+.number{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 131px;
+    text-align: center;
+    color: rgba(249, 189, 189, 0.25);
+    z-index: -1;
 }
 
-#chair{
-    width: 280px;
-    height: 400px;
-    left: 336px;
-    top: 0px;
-    background: #F7DEA6;
-    z-index: -1;
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 100px;
+.one{
+    position: absolute;
+    width: 58px;
+    height: 131px;
+    margin-right: 150px;
 }
 
-#kitchenware{
-    width: 280px;
-    height: 400px;
-    left: 672px;
-    top: 0px;
-    background: #A8DCEC;
-    z-index: -1;
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 100px;
+.two{
+    position: absolute;
+    width: 58px;
+    height: 131px;
+    margin-right: 130px;
 }
 
-#bookshelf{
-    width: 280px;
-    height: 400px;
-    left: 0px;
-    top: 0px;
-    background: #F9BDBD;
-    z-index: -1;
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 100px;
+.tree{
+    position: absolute;
+    width: 58px;
+    height: 131px;
+    margin-right: 150px;
 }
 
-#electronics{
-    width: 280px;
-    height: 400px;
-    left: 336px;
-    top: 0px;
-    background: #F7DEA6;
-    z-index: -1;
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 100px;
+.four{
+    position: absolute;
+    width: 58px;
+    height: 131px;
+    margin-right: 150px;
 }
 
 #first{
     width: 316px;
     height: 0px;
-    /* left: 357px; */
-    /* top: 49px; */
 }
-headline-img{
-position: absolute;
-width: 568px;
-height: 577px;
-left: 584px;
-top: 200px;
+#second{
+    width: 65px;
+    height: 0px;
 }
+#third{
+    width: 202px;
+    height: 0px;
+}
+#fourth{
+    width: 240px;
+    height: 0px;
+}
+#desk{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    left: 0px;
+    background: #F9BDBD;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border: none;
+}
+#chair{
+    width: 280px;
+    height: 400px;
+    left: 336px;
+    background: #F7DEA6;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border: none;
+}
+#kitchenware{
+    width: 280px;
+    height: 400px;
+    left: 672px;
+    background: #A8DCEC;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border: none;
+}
+#bookshelf{
+    width: 280px;
+    height: 400px;
+    left: 0px;
+    background: #F9BDBD;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border: none;
+}
+#electronics{
+    width: 280px;
+    height: 400px;
+    left: 336px;
+    top: 3191px;
+    background: #F7DEA6;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border: none;
+}
+.article{
+    display: flex;
+    width: 280px;
+    height: 400px;
+    justify-content: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.knopka{
+    box-sizing: border-box;
+    position: absolute;
+    width: 123px;
+    height: 40px;
+    border: 1px solid #3E3F43;
+    border-radius: 4px;
+    padding: 8px 19px;
+    margin-right: 15px;
+    margin-bottom: 15px
+}
+
+.imag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forms{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1152px;
+    margin: 0 auto;
+}
+.article p{
+    position: absolute;
+    width: 140px;
+    height: 33px;
+    margin-left: 16px;
+    margin-top: 24px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: left;
+    color: #3E3F43;
+}
+.article img{
+    position: absolute;
+}
+
+#ds{
+    top: 2840px;
+    margin-left: -115px;
+}
+
+#el{
+    top: 3340px;
+}
+
+.kartina{
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-right: 30px;
+}
+.cmt{
+    display: flex;
+    width: 1100px;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+#com{
+    width: 352px;
+    height: 76px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3E3F43;
+    padding-left: 16px;
+}
+#uspic{
+    border-radius: 100px;
+}
+#user{
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+}
+#user figcaption{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #AFAFAF;
+}
+#user img{
+    width: 40px;
+}
+.direction{
+    width: 384px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+#prev{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #C4C4C4;
+}
+#next{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3E3F43;
+}
+#arrow{
+    position: absolute;
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 381px;
+    justify-content: end;
+}
+
+#blk{
+    margin-left: 250px;
+}
+.comment{
+    box-sizing: border-box;
+    width: 384px;
+    height: 280px;
+    left: 668px;
+    top: 3799px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background: #FFFFFF;
+    border: 1px solid #A8DCEC;
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+.fig{
+    width: 1100px;
+    margin: 0 auto;
+}
+#star{
+    padding-top: 50px;
+    padding-left: 16px;
+}
+.subscr{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.subscr div{
+    width: 493px;
+    height: 69px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+.find input{
+    box-sizing: border-box;
+    width: 355px;
+    height: 40px;
+    left: 600px;
+    top: 4337px;
+    outline: none;
+    padding-left: 10px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 2px solid #DAA520;
+}
+.find button{
+    width: 95px;
+    height: 41px;
+    left: 1048px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #DAA520;
+    cursor: pointer;
+    margin-left: -10px;
+}
+.find button:before{
+    content: "Subscribe";
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.links{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 1100px;
+    margin: 0 auto;
+    justify-content: start;
+}
+.links ul{
+    list-style: none;
+}
+.links a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #8D8D8D;
+}
+    #grad{
+        position: absolute;
+        width: 100%;
+        height: 174px;
+        left: 0px;
+        top: 4550px;
+        z-index: -1;
+        background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    #photo{
+        position: absolute;
+        right: 0;
+        height: 355px;
+        z-index: -1;
+    }
+    #gray{
+        position: absolute;
+        width: 1400px;
+        width: 100%;
+        height: 355px;
+        background: #f1f1f1;
+        left: 0;
+        z-index: -1;
+    }
+    #woodies{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        color: #8D8D8D;
+        text-align: center;
+}
+              
+
+
+
 
