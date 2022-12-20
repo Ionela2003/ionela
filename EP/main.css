@@ -67,9 +67,10 @@ a {
 }
 
 .menu {
+    font-size: 25px;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 100px;
 }
 
 .menu a:not(:last-chlid) {
@@ -186,8 +187,8 @@ a {
 
 .how-work .bg-circle{
     position: absolute;
-    top: 50%;
-    margin-top: calc(var(--size) / -2)
+    top: 40%;
+    margin-top: calc(var(--size) / -2);
     margin-left: calc(var(--size) / -2);
     left: 0 ;
    
@@ -258,11 +259,10 @@ a {
     margin: 26px 0 50px;
 }
 .about__img{
-    margin-left: 126px;
+    margin-left: 126px;   
 }
 .logo span {
     color: var(--secondary);
-
 }
 
 .logo {
@@ -282,16 +282,16 @@ a {
 }
 
 .button-light {
-
+    cursor: pointer;
     background-color: white;
     color: orange;
-
+    gap: 10px;
 }
 
 .button_icon-square,
 .button_icon-circle {
-    
-    background-color: #FFF;
+    cursor: pointer;
+    background-color: white;
     --size: 50px;
     padding: 0;
     min-width: var(--size);
@@ -300,6 +300,8 @@ a {
     border-radius: 15px;
     font-size: 20px;
     text-align: center;
+    
+    
 }
 .button_icon-circle {
     --size:62px;
@@ -383,19 +385,62 @@ a {
     border-radius: var(--size);
     border: 74px solid var(--primary);
     opacity: 0.23;
+    
 }
-.review{
-    padding: 146px 0;
+.title4{
+    margin-left: 100px;
+    font-weight:600;
+    font-size: 79px;
+
+}
+/* footer */
+.footer{
+    padding: 150px 0 42px;
+    background-color: var(--bg);
+}
+.footer__content{
+    display: flex;
+    margin: -12px;
+    font-size: 17px;
+}
+.footer__content >div {
+    flex-grow: 1;
+    margin: 12px;
+}
+.footer__content > div:first-child{
+    flex-grow: 4;
+}
+.footer.logo{
+    margin-bottom: 30px;
+}
+.footer__description
+.footer a {
+    opacity: 0.8;
+    font-weight: 300;
+}
+.footer__description{
+    line-height: 1.7em;
+    margin-bottom: 22px;
+}
+.social-buutons{
+    font-size: 24px;
+}
+.footer__line{
+    margin: 100px 0 36px;
+    border: 0;
+    border-top: 1px solid #444;
+}
+.footer__copyright{
     text-align: center;
+    color: #375465;
+    font-weight: 300;
 }
-.slider{
-    position: relative;
+.footer__title{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 40px;
 }
-.slider__button{
-    --size: 60px;
-    height: var(--size);
-    border-radius: var(--size);
-    min-height: var(--size);
-    background-color: var(--light);
-    border:1px solid var(--primary) ;
+.footer__menu a:not(:last-child){
+    display: inline-block;
+     margin-bottom: 20px;
 }
